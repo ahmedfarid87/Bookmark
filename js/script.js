@@ -29,7 +29,7 @@ function display(bookMarker)
   for (var i=0; i < bookMarker.length ; i++) { 
     newBookmark += `
     <tr>
-    <td>${bookMarker[i].index}</td>
+    <td>${i + 1}</td>
     <td>${bookMarker[i].name}</td>
     <td>
       <button class="btn btn-visit" onclick="visitWebsite(${i})">
